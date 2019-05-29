@@ -1,0 +1,23 @@
+// # Amazing test
+// Great to document tests too
+var assert = require('Chai').assert;
+var Box = require('../js/Box');
+
+// We document whatever we like. Like making sure to explain what `describe` can do here.
+// Or provide a linke to [chai](https://www.chaijs.com/)
+describe('Testing Box', function() {
+
+  it('should assert obj is instance of Box', function() {
+    var obj = new Box(10, 20, 30);
+    assert.instanceOf(obj, Box);
+  })
+
+  it('should assert volume of the box to be 6000', function() {
+    // create an object
+    var obj = new Box(10, 20, 30);
+
+    // now assert the volume
+    assert.equal(obj.getVolume(), 6000);
+  })
+
+})

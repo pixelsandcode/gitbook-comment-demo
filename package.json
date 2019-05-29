@@ -1,0 +1,17 @@
+{
+  "name": "gitbook-comment-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc-generate": "gitbook-comment generate -p ./",
+    "doc-clean-up": "gitbook-comment clean-up -p ./",
+    "doc-publish": "gitbook-comment publish -p ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-comment": "^1.0.1"
+  }
+}
