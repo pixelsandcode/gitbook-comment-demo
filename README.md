@@ -6,7 +6,7 @@
 Sample doc commands are in package.json file.
 
 doc generate make comments in current branch.
-doc publish make comments in gh-pages branch (or any branch if you pass as params).
+doc publish make comments in gh-pages branch (or any branch if you pass as params). make sure you have the branch before running it.
 
 For more option please check the [gitbook-comment](https://github.com/pixelsandcode/gitbook-comment) 
 
